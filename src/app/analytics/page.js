@@ -78,11 +78,11 @@ export default function AnalyticsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-black text-white">
-      <main className="w-full">
+    <div className="min-h-screen bg-linear-to-br from-gray-950 via-gray-900 to-black text-white">
+      <main className="w-full ">
         {/* Header Section */}
-        <div className="sticky top-0 z-30 bg-gray-900/95 backdrop-blur-xl border-b border-gray-800/50">
-          <div className="px-3 sm:px-4 md:px-6 lg:px-8 py-4 sm:py-6">
+        <div className="max-w-[1600px] mx-auto space-y-6">
+          <div className="px-3   sm:px-4 md:px-6 lg:px-8 py-4 sm:py-6">
             {/* Title and Time Range */}
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4 mb-4 sm:mb-6">
               <div className="flex-1 min-w-0">
