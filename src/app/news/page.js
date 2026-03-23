@@ -115,7 +115,7 @@ export default function NewsPage() {
   };
 
   const activeFilterCount = Object.entries(filters).filter(
-    ([key, value]) =>
+    ([key, value]) => 
       value && !["page", "limit", "sortBy", "sortOrder"].includes(key)
   ).length;
 
